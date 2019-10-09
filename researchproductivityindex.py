@@ -6,3 +6,4 @@ expect = []
 for i in range(num):
     scope = listt[:i+1]
     for j in range(len(scope) - 1):
+        pass

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af23131-456a-4f26-842a-70a92b1c87e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/missingnumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/researchproductivityindex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/researchproductivityindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/researchproductivityindex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +186,7 @@
       <workItem from="1570111251923" duration="102000" />
       <workItem from="1570298620622" duration="16727000" />
       <workItem from="1570397703883" duration="2000" />
-      <workItem from="1570590743553" duration="4255000" />
+      <workItem from="1570590743553" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="Update in PyCharm">
       <created>1569874010773</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570594619033</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1570597140183</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570597140183</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +343,8 @@
     <MESSAGE value="ACM Competition" />
     <MESSAGE value="Zipline Update" />
     <MESSAGE value="Zipline Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zipline Solution" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
