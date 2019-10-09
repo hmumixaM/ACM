@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af23131-456a-4f26-842a-70a92b1c87e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zipline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagonalcut.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagonalcut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelingmerchant.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelingmerchant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipline.py" beforeDir="false" afterPath="$PROJECT_DIR$/zipline.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.diagonalcut">
+  <component name="RunManager" selected="Python.zipline">
     <configuration name="circuitmath" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,28 +114,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="summertrip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="COMP222" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/summertrip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="travelingmerchant" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,13 +136,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zipline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COMP222" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zipline" />
         <item itemvalue="Python.diagonalcut" />
         <item itemvalue="Python.diagonalcutnew" />
         <item itemvalue="Python.travelingmerchant" />
         <item itemvalue="Python.circuitmath" />
-        <item itemvalue="Python.summertrip" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +184,9 @@
       <workItem from="1570053076997" duration="1466000" />
       <workItem from="1570069246321" duration="49000" />
       <workItem from="1570111251923" duration="102000" />
-      <workItem from="1570298620622" duration="16700000" />
+      <workItem from="1570298620622" duration="16727000" />
+      <workItem from="1570397703883" duration="2000" />
+      <workItem from="1570590743553" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="Update in PyCharm">
       <created>1569874010773</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570311924887</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ACM Competition">
+      <created>1570325279154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570325279154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +319,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update in PyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update in PyCharm" />
+    <MESSAGE value="ACM Competition" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACM Competition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,8 +340,9 @@
     <SUITE FILE_PATH="coverage/ACM$travelingmerchant.coverage" NAME="travelingmerchant Coverage Results" MODIFIED="1570312623196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$oddities.coverage" NAME="oddities Coverage Results" MODIFIED="1570053230290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$diagonalcutnew.coverage" NAME="diagonalcutnew Coverage Results" MODIFIED="1570316105976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ACM$diagonalcut.coverage" NAME="diagonalcut Coverage Results" MODIFIED="1570317015821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$diagonalcut.coverage" NAME="diagonalcut Coverage Results" MODIFIED="1570591681378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$pizza2.coverage" NAME="pizza2 Coverage Results" MODIFIED="1570300404211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1570303453900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/ACM$zipline.coverage" NAME="zipline Coverage Results" MODIFIED="1570591789738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
