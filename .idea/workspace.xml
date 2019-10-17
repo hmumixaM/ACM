@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af23131-456a-4f26-842a-70a92b1c87e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/avion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/divideby100.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/researchproductivityindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/researchproductivityindex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +48,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.researchproductivityindex">
-    <configuration name="diagonalcut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.divideby100">
+    <configuration name="avion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +62,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diagonalcut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="diagonalcutnew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="divideby100" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +84,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diagonalcutnew.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/divideby100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.divideby100" />
+        <item itemvalue="Python.avion" />
         <item itemvalue="Python.researchproductivityindex" />
         <item itemvalue="Python.missingnumbers" />
         <item itemvalue="Python.zipline" />
-        <item itemvalue="Python.diagonalcut" />
-        <item itemvalue="Python.diagonalcutnew" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,12 @@
       <workItem from="1570111251923" duration="102000" />
       <workItem from="1570298620622" duration="16727000" />
       <workItem from="1570397703883" duration="2000" />
-      <workItem from="1570590743553" duration="4554000" />
+      <workItem from="1570590743553" duration="5162000" />
+      <workItem from="1570642419031" duration="28000" />
+      <workItem from="1570762803997" duration="143000" />
+      <workItem from="1570856997883" duration="47000" />
+      <workItem from="1570889941755" duration="6000" />
+      <workItem from="1571260372774" duration="3113000" />
     </task>
     <task id="LOCAL-00001" summary="Update in PyCharm">
       <created>1569874010773</created>
@@ -237,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570597140183</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pass">
+      <created>1570597230444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570597230444</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +357,8 @@
     <MESSAGE value="Zipline Update" />
     <MESSAGE value="Zipline Solution" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,9 +372,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ACM$gerrymandering.coverage" NAME="gerrymandering Coverage Results" MODIFIED="1570307546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ACM$missingnumbers.coverage" NAME="missingnumbers Coverage Results" MODIFIED="1570595080266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ACM$researchproductivityindex.coverage" NAME="researchproductivityindex Coverage Results" MODIFIED="1570596605492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$avion.coverage" NAME="avion Coverage Results" MODIFIED="1571262930575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$summertrip.coverage" NAME="summertrip Coverage Results" MODIFIED="1570307567084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$circuitmath.coverage" NAME="circuitmath Coverage Results" MODIFIED="1570311252509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$travelingmerchant.coverage" NAME="travelingmerchant Coverage Results" MODIFIED="1570312623196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -370,5 +382,9 @@
     <SUITE FILE_PATH="coverage/ACM$pizza2.coverage" NAME="pizza2 Coverage Results" MODIFIED="1570300404211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1570303453900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/ACM$zipline.coverage" NAME="zipline Coverage Results" MODIFIED="1570595032308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$gerrymandering.coverage" NAME="gerrymandering Coverage Results" MODIFIED="1570307546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$missingnumbers.coverage" NAME="missingnumbers Coverage Results" MODIFIED="1570595080266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$researchproductivityindex.coverage" NAME="researchproductivityindex Coverage Results" MODIFIED="1570596605492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$divideby100.coverage" NAME="divideby100 Coverage Results" MODIFIED="1571263412532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
