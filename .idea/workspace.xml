@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af23131-456a-4f26-842a-70a92b1c87e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/avion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divideby100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/height.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videospeedup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QhtWA4jlrIocLsggSrHZ3Z5ocm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.divideby100">
+  <component name="RunManager" selected="Python.videospeedup">
     <configuration name="avion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="missingnumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="height" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +109,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/missingnumbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/height.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zipline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="videospeedup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP222" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +153,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videospeedup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.videospeedup" />
+        <item itemvalue="Python.height" />
         <item itemvalue="Python.divideby100" />
         <item itemvalue="Python.avion" />
         <item itemvalue="Python.researchproductivityindex" />
-        <item itemvalue="Python.missingnumbers" />
-        <item itemvalue="Python.zipline" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +195,7 @@
       <workItem from="1570762803997" duration="143000" />
       <workItem from="1570856997883" duration="47000" />
       <workItem from="1570889941755" duration="6000" />
-      <workItem from="1571260372774" duration="3113000" />
+      <workItem from="1571260372774" duration="8695000" />
     </task>
     <task id="LOCAL-00001" summary="Update in PyCharm">
       <created>1569874010773</created>
@@ -250,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570597230444</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Pass">
+      <created>1571277394333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571277394333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +392,9 @@
     <SUITE FILE_PATH="coverage/ACM$pizza2.coverage" NAME="pizza2 Coverage Results" MODIFIED="1570300404211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1570303453900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/ACM$zipline.coverage" NAME="zipline Coverage Results" MODIFIED="1570595032308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$videospeedup.coverage" NAME="videospeedup Coverage Results" MODIFIED="1571335449409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$gerrymandering.coverage" NAME="gerrymandering Coverage Results" MODIFIED="1570307546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ACM$height.coverage" NAME="height Coverage Results" MODIFIED="1571333600627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$missingnumbers.coverage" NAME="missingnumbers Coverage Results" MODIFIED="1570595080266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$researchproductivityindex.coverage" NAME="researchproductivityindex Coverage Results" MODIFIED="1570596605492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ACM$divideby100.coverage" NAME="divideby100 Coverage Results" MODIFIED="1571263412532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
