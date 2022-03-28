@@ -1,4 +1,4 @@
-listt = list(map(lambda x:int(x), input().split()))
+listt = list(map(int, input().split()))
 
 item = []
 for i in range(listt[1]):
