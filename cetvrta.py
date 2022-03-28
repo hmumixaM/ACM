@@ -1,6 +1,6 @@
-p1 = list(map(lambda x:int(x), input().split()))
-p2 = list(map(lambda x:int(x), input().split()))
-p3 = list(map(lambda x:int(x), input().split()))
+p1 = list(map(int, input().split()))
+p2 = list(map(int, input().split()))
+p3 = list(map(int, input().split()))
 points = (p1, p2, p3)
 
 for i in range(3):
